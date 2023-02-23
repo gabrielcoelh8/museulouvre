@@ -1,13 +1,3 @@
-<?php
-  include_once "function.php";
-  session_start();
-  if (!isset($_SESSION['usuario'])) {
-    header("location: login.php");
-    exit(0);
-  }
-  $usuario = $_SESSION['usuario'];
-?>
-
 <nav class="navbar navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
 
